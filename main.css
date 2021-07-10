@@ -1,4 +1,17 @@
 
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Teko', sans-serif;
+  color: white;
+  background: #1578cd;
+  letter-spacing: 1px;
+}
 .hide {
   opacity: 0;
 }
