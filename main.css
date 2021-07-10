@@ -9,13 +9,45 @@
 body {
   font-family: 'Teko', sans-serif;
   color: white;
-  background: #1578cd;
+  background-image: linear-gradient(45deg, #1578cd, #69c7d0, transparent);
+    background-repeat: no repeat;
+    background-repeat: no-repeat;
+  min-height: 100vh;
   letter-spacing: 1px;
+ 
 }
+.wrapper {
+  margin: 0 auto;
+  line-height: 2;
+  padding: 3%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+main {
+  text-align: left;
+  margin: 0 auto;
+  width: 360px;
+}
+
 .hide {
   opacity: 0;
 }
 .show {
   opacity: 1;
   transition: opacity 1s;
+}
+
+
+@media (max-width: 500px) {
+  main {
+   width: 300px;
+  }
+
+  h1 {
+    line-height: 1;
+  }
 }
